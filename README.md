@@ -7,24 +7,31 @@ Climatrack est une application mobile développée avec **Flutter** pour fournir
 ## Fonctionnalités 📋
 
 - **Écran d'accueil :**
-    - Message de bienvenue dynamique.
-    - Navigation vers l'écran principal.
+  - Message de bienvenue dynamique.
+  - Navigation vers l'écran principal.
 
 - **Écran principal :**
-    - Jauge de progression animée indiquant le chargement des données.
-    - Récupération des données météo pour 5 villes en temps réel grâce à des appels API.
-    - Messages d'attente personnalisés pendant le chargement.
-    - Tableau interactif affichant les informations météo une fois le chargement terminé.
+  - Jauge de progression animée indiquant le chargement des données.
+  - Récupération des données météo pour 5 villes en temps réel grâce à des appels API.
+  - Messages d'attente personnalisés pendant le chargement.
+  - Tableau interactif affichant les informations météo une fois le chargement terminé.
 
 - **Détail des villes :**
-    - Informations météorologiques détaillées pour chaque ville.
-    - Localisation sur une carte interactive via **Flutter Map**.
+  - Informations météorologiques détaillées pour chaque ville.
+  - Localisation sur une carte interactive via **Flutter Map**.
 
 - **Thèmes dynamiques :**
-    - Support des modes sombre et clair pour s'adapter à toutes les préférences.
+  - Support des modes sombre et clair pour s'adapter à toutes les préférences.
 
 - **Gestion des erreurs :**
-    - Système de gestion robuste pour informer l'utilisateur en cas d'échec des appels API.
+  - Système de gestion robuste pour informer l'utilisateur en cas d'échec des appels API.
+
+---
+
+## Auteurs 👨‍💻👩‍💻
+
+- Mohamed Anzize SIHAMOUDINE
+- Aicha Matchika
 
 ---
 
@@ -39,8 +46,21 @@ Climatrack est une application mobile développée avec **Flutter** pour fournir
 
 ## Installation 🚀
 
-Suivez les étapes ci-dessous pour installer et exécuter le projet sur votre machine :
-
 1. **Clonez ce dépôt :**
    ```bash
    git clone https://github.com/Siam5818/ClimaTrack.git
+2. **Accédez au répertoire du projet :**
+   ```bash
+   cd ClimaTrack
+3. **Installez les dépendances :**
+   ```bash
+   flutter pub get
+
+4. **Exécutez l'application :**
+   ```bash
+   flutter run
+
+---
+
+## Remerciements ❤️
+Merci d'avoir utilisé Climatrack ! N'hésitez pas à proposer des idées ou à contribuer au projet.
